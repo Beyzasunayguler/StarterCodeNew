@@ -120,11 +120,7 @@
         <item name="android:layout_height">match_parent</item>
     </style>
 
+    <style name="ToolbarStyle">ToolBarStyle</style>
 
-    <dimen name="frame_layout_elevation">frame_layout_elevation</dimen>
-    <dimen name="frame_layout_height">frame_layout_height</dimen>
-    <dimen name="margin_cardview">margin_cardview</dimen>
-    <dimen name="placeholder_image_height">placeholder_image_height</dimen>
-    <dimen name="list_top_padding">list_top_padding</dimen>
-    <dimen name="list_bottom_padding">list_bottom_padding</dimen>
+
 </resources>

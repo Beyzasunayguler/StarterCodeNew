@@ -56,16 +56,11 @@ public class ArticleDetailFragment extends Fragment implements
     private long mItemId;
     private View mRootView;
     private int mMutedColor = 0xFF333333;
-    private ObservableScrollView mScrollView;
-    private DrawInsetsFrameLayout mDrawInsetsFrameLayout;
-    private ColorDrawable mStatusBarColorDrawable;
 
-    private int mTopInset;
-    private View mPhotoContainerView;
+
     private ImageView mPhotoView;
     private int mScrollY;
-    private boolean mIsCard = false;
-    private int mStatusBarFullOpacityBottom;
+    private boolean mIsCard = false;m;
     private ProgressBar progressBar;
 
     private View rootView;
@@ -135,7 +130,7 @@ public class ArticleDetailFragment extends Fragment implements
         collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.layout_collapsing);
         collapsingToolbarLayout.setTitleEnabled(false);
 
-        toolbar = (Toolbar) mRootView.findViewById(R.id.fragment_toolbar);
+        toolbar = (Toolbar) mRootView.findViewById(R.id.toolbar_detail);
         getActivityCast().setSupportActionBar(toolbar);
         getActivityCast().getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {

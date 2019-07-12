@@ -12,5 +12,15 @@
     <dimen name="expandedTitleMarginStart">48dp</dimen>
     <dimen name="expandedTitleMarginEnd">64dp</dimen>
     <dimen name="zero_layout_height">0dp</dimen>
+    <dimen name="frame_layout_elevation">0dp</dimen>
+    <dimen name="frame_layout_height">0dp</dimen>
+    <dimen name="margin_cardview">4dp</dimen>
+    <dimen name="placeholder_image_height">4dp</dimen>
+    <dimen name="list_top_padding">12dp</dimen>
+    <dimen name="list_bottom_padding">16dp</dimen>
+    <dimen name="appbar_elevation">12dp</dimen>
+    <dimen name="detail_toolbar_margin_top">16dp</dimen>
+
+
 
 </resources>

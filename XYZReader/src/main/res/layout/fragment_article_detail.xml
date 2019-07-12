@@ -4,6 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_detail"
+        style="@style/ToolbarStyle"
+        android:layout_marginTop="@dimen/detail_toolbar_margin_top"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_collapseMode="pin" />
+
     <ProgressBar
         android:id="@+id/progress_bar"
         style="@style/ProgressBar" />
