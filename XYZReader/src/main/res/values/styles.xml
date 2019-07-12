@@ -1,0 +1,130 @@
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="Theme.Bacon.Detail">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="RecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:paddingTop">@dimen/list_top_padding</item>
+        <item name="android:paddingLeft">@dimen/list_side_margin</item>
+        <item name="android:paddingRight">@dimen/list_side_margin</item>
+        <item name="android:paddingBottom">@dimen/list_bottom_padding</item>
+    </style>
+
+    <style name="LogoImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+
+    <style name="ArticleListToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginLeft">@dimen/list_toolbar_side_margin</item>
+        <item name="android:layout_marginRight">@dimen/list_toolbar_side_margin</item>
+    </style>
+
+    <style name="ArticleListToolbarContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/frame_layout_height</item>
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:elevation">@dimen/frame_layout_elevation</item>
+        <item name="android:layout_marginRight">@dimen/list_toolbar_side_margin</item>
+    </style>
+
+    <style name="SwipeReFreshLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!--list_item_article.xml -->
+    <style name="CardView">
+        <item name="android:layout_marginLeft">@dimen/margin_cardview</item>
+        <item name="android:layout_marginRight">@dimen/margin_cardview</item>
+        <item name="android:layout_marginTop">@dimen/margin_cardview</item>
+        <item name="android:layout_marginBottom">@dimen/margin_cardview</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="android:elevation">@dimen/cardview_default_elevation</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+    </style>
+
+    <style name="Thumbnail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/placeholder_image_height</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+
+    <style name="LinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <!--fragment_article_detail.xml -->
+
+    <style name="ProgressBar">
+        <item name="android:layout_width">@dimen/progressbar_size</item>
+        <item name="android:layout_height">@dimen/progressbar_size</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="FragmentAppBarLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/fragment_appbar_layout_height</item>
+    </style>
+    <style name="CollapsingToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="PhotoContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero_layout_height</item>
+        <item name="android:background">@color/photo_placeholder</item>
+    </style>
+    <style name="ContainerLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="ScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <dimen name="frame_layout_elevation">frame_layout_elevation</dimen>
+    <dimen name="frame_layout_height">frame_layout_height</dimen>
+    <dimen name="margin_cardview">margin_cardview</dimen>
+    <dimen name="placeholder_image_height">placeholder_image_height</dimen>
+    <dimen name="list_top_padding">list_top_padding</dimen>
+    <dimen name="list_bottom_padding">list_bottom_padding</dimen>
+</resources>
