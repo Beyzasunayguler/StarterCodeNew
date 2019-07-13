@@ -60,7 +60,7 @@ public class ArticleDetailFragment extends Fragment implements
 
     private ImageView mPhotoView;
     private int mScrollY;
-    private boolean mIsCard = false;m;
+    private boolean mIsCard = false;
     private ProgressBar progressBar;
 
     private View rootView;
@@ -167,7 +167,7 @@ public class ArticleDetailFragment extends Fragment implements
 
         return mRootView;
     }
-
+/*
     private void updateStatusBar() {
         int color = 0;
         if (mPhotoView != null && mTopInset != 0 && mScrollY > 0) {
@@ -196,7 +196,7 @@ public class ArticleDetailFragment extends Fragment implements
             return val;
         }
     }
-
+*/
     private Date parsePublishedDate() {
         try {
             String date = mCursor.getString(ArticleLoader.Query.PUBLISHED_DATE);
@@ -269,12 +269,12 @@ public class ArticleDetailFragment extends Fragment implements
                         }
                     });
             appBar.setVisibility(View.VISIBLE);
-            mScrollView.setVisibility(View.VISIBLE);
+            scrollView.setVisibility(View.VISIBLE);
             shareFloatingActionButton.setVisibility(View.VISIBLE);
             progressBar.setVisibility(View.GONE);
         } else {
             appBar.setVisibility(View.GONE);
-            mScrollView.setVisibility(View.GONE);
+            scrollView.setVisibility(View.GONE);
             shareFloatingActionButton.setVisibility(View.GONE);
             progressBar.setVisibility(View.VISIBLE);
             titleView.setText(getString(R.string.default_text));
